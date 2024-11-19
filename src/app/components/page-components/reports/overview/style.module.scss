@@ -1,0 +1,21 @@
+.overviewtabs{
+    margin-bottom: 60px;
+    button{
+        padding: 11px 30px;
+        background: rgba(128, 128, 128, 0.143);
+        color: #111;
+        border-radius: 30px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        margin-right: 15px;
+    }
+    button:hover{
+        background-color: #111;
+        color: #fff;
+    }
+    .activeTab{
+        background-color: #111;
+        color: #fff;
+    }
+}
